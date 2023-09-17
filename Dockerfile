@@ -9,4 +9,4 @@ COPY concord232_server /app
 
 RUN python setup.py install
 
-CMD python -m concord232_server --serial $DEVICE
+CMD python concord232_server --serial $DEVICE
